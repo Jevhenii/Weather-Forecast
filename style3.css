@@ -1,0 +1,99 @@
+html {
+	background-color:#6498FF;
+	
+}
+* {
+	color:white;
+	font-family:“Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+	
+.cities {
+font-size:0;
+width:100%;
+}
+.area{
+	margin:40px;
+	
+}
+.cities li{
+	display:inline-block;
+	font-size:25px;
+	width:50px;
+	
+	border:3px solid white;
+	height:100px;
+	padding-top:20px;
+	text-align:center;
+	
+	
+}
+footer {
+	margin-left:38px;
+}
+header {
+	margin-left:38px;
+	
+}
+#lis {
+	width:50%;
+	background-color:;
+
+
+}
+#par {width:25%;
+
+ background-color:#7AFFE0;
+
+
+}
+#bel {width:25%;
+
+background-color:#EE30FF;
+
+}
+#mos {width:25%;
+
+background-color:#FF5855;
+}
+#tel {width:25%;
+
+background-color:#FF804A;
+
+}
+#cai {width:25%;
+
+background-color:#FFD485;
+}
+#new {width:25%;
+
+background-color:#D9FF7A;
+}
+#newd {width:25%;
+
+background-color:#90D4FF;
+}
+#san {width:50%;
+
+background-color:#FF7AB6;
+}
+#tok {width:25%;
+background-color:#64FF64;
+
+}
+#syd {width:100%;
+background-color:#C851FF;
+border-bottom:5px solid white;
+}
+
+
+.cities:hover > li {
+    opacity: .3;
+}
+.cities > li:hover {
+    opacity: 1;
+    /*transform: scale(1) rotate(-180deg);*/
+}
